@@ -12,7 +12,7 @@ class EmailAddressParser
   attr_accessor :email_addresses
 
   def parse(email_addresses)
-    puts email_addresses.split(",")
+    return email_addresses.split(",")
   end
 
 end
